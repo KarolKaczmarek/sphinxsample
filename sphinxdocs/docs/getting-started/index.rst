@@ -20,6 +20,7 @@ Description
 
     "test": {
         "test1": { }
+        "foo":{}
     },
 
 Topic2
