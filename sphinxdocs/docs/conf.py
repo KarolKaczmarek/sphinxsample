@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# PS DSC Docs documentation build configuration file, created by
+# SphinxSample documentation build configuration file, created by
 # sphinx-quickstart on Mon Jul 27 15:36:00 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'PS DSC Docs'
+project = 'SphinxSample'
 copyright = '2015, PowerShell'
 author = 'PowerShell'
 
@@ -201,7 +201,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PSDSCDocsdoc'
+htmlhelp_basename = 'SphinxSampledoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -223,7 +223,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'PSDSCDocs.tex', 'PS DSC Docs Documentation',
+  (master_doc, 'SphinxSample.tex', 'SphinxSample Documentation',
    'PowerShell', 'manual'),
 ]
 
@@ -253,7 +253,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'psdscdocs', 'PS DSC Docs Documentation',
+    (master_doc, 'SphinxSample', 'SphinxSample Documentation',
      [author], 1)
 ]
 
@@ -267,8 +267,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'PSDSCDocs', 'PS DSC Docs Documentation',
-   author, 'PSDSCDocs', 'One line description of project.',
+  (master_doc, 'SphinxSample', 'SphinxSample Documentation',
+   author, 'SphinxSample', 'One line description of project.',
    'Miscellaneous'),
 ]
 
