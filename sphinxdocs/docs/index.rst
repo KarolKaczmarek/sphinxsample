@@ -5,7 +5,7 @@
 
 Welcome to SphinxSample's documentation!
 =======================================
-Test
+Test2
 
 Contents:
 
