@@ -14,6 +14,8 @@ Contents:
    
    getting-started/index
    advanced/index
+   markdown-test/index
+   root-topic
 
 
 
