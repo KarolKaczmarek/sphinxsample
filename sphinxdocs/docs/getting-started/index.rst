@@ -6,13 +6,13 @@ By `Karol Kaczmarek`_
 Here's how to get started
 
 Table of topics:
-	- `Topic1`_
-	- `Topic2`_
-	- `Topic3`_
+	- `First Topic`_
+	- `Second Topic`_
+	- `Creating HTTP server`_
 	
 `View or download sample from GitHub <https://github.com>`_.
 
-Topic1
+First Topic
 ------------------------------
 
 Description for first topic
@@ -23,7 +23,7 @@ Description for first topic
         "test1": { }
     },
 
-Topic2
+Second Topic
 ------------------------------
 
 Description for second topic
@@ -36,7 +36,7 @@ Description for second topic
         "foo3":{}
     },
 
-Topic3
+Creating HTTPS server
 ------------------------------
 
 Description for third topic
@@ -46,7 +46,7 @@ Description for third topic
     var http = require('http');
     
     http.createServer(function (req, res) {
-      res.writeHead(200, {'Content-Type': 'text/plain'});
+      res.writeHead(404, {'Content-Type': 'text/plain'});
       res.end('Hello World\n');
     }).listen(1337, '127.0.0.1');
     
