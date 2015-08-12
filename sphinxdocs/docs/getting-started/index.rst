@@ -36,7 +36,7 @@ Description for second topic
         "foo3":{}
     },
 
-Creating HTTPS server
+Creating HTTP server
 ------------------------------
 
 Description for third topic
