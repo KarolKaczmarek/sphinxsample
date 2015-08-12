@@ -1,26 +1,26 @@
 GETTING STARTED
 ====================================================
 
-By `Author`_
+By `Karol Kaczmarek`_
 
-Description2
+Here's how to get started
 
 Table of topics:
 	- `Topic1`_
 	- `Topic2`_
+	- `Topic3`_
 	
 `View or download sample from GitHub <https://github.com>`_.
 
 Topic1
 ------------------------------
 
-Description
+Description for first topic
 
 .. code-block:: javascript
 
-    "test": {
+    "test1": {
         "test1": { }
-        "foo":{}
     },
 
 Topic2
@@ -28,22 +28,26 @@ Topic2
 
 .. _Bootstrap: http://getbootstrap.com/
 
-Description2
+Description for second topic
 
 .. code-block:: javascript
 
     "test2": {
-        "test1": { }
-        "foo":{}
+        "foo1":{}
+        "foo2":{}
+        "foo3":{}
     },
 
 Topic3
 ------------------------------
 
-Description3
+Description for third topic
 
 .. code-block:: javascript
 
-    "test3": {
-        "test1": { }
-    },
+    var http = require('http');
+    http.createServer(function (req, res) {
+      res.writeHead(200, {'Content-Type': 'text/plain'});
+      res.end('Hello World\n');
+    }).listen(1337, '127.0.0.1');
+    console.log('Server running at http://127.0.0.1:1337/');
