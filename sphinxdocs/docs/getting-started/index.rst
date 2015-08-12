@@ -26,8 +26,6 @@ Description for first topic
 Topic2
 ------------------------------
 
-.. _Bootstrap: http://getbootstrap.com/
-
 Description for second topic
 
 .. code-block:: javascript
