@@ -26,7 +26,7 @@ Description for first topic
 Second Topic
 ------------------------------
 
-Description for second topic
+Description for second topic.
 
 .. code-block:: javascript
 
