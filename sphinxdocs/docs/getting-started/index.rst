@@ -39,7 +39,7 @@ Description for second topic
 Creating HTTP server
 ------------------------------
 
-Description for third topic.
+Description for third topic
 
 .. code-block:: javascript
 
