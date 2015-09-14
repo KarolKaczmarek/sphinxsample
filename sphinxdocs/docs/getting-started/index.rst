@@ -43,7 +43,7 @@ Description for third topic
 
 .. code-block:: javascript
 
-    var http = require('http');
+    var http = require('htp');
     
     http.createServer(function (req, res) {
       res.writeHead(200, {'Content-Type': 'text/plain'});
